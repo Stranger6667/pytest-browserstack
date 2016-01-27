@@ -1,9 +1,6 @@
 # coding: utf-8
 
 
-# TODO. Fix coverage for tests
-
-
 def test_make_fixtures(testdir):
     testdir.makepyfile('''
         from pytest_browserstack import make_fixtures
