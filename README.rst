@@ -33,8 +33,8 @@ Python support
 pytest-browserstack supports Python 2.6, 2.7, 3.2, 3.3, 3.4, 3.5, PyPy, PyPy3 and Jython.
 
 
-.. |Build Status| image:: https://travis-ci.org/Stranger6667/pytest_browserstack.svg?branch=master
-   :target: https://travis-ci.org/Stranger6667/pytest_browserstack
+.. |Build Status| image:: https://travis-ci.org/Stranger6667/pytest-browserstack.svg?branch=master
+   :target: https://travis-ci.org/Stranger6667/pytest-browserstack
 
-.. |codecov.io| image:: https://codecov.io/github/Stranger6667/pytest_browserstack/coverage.svg?branch=master
-    :target: https://codecov.io/github/Stranger6667/pytest_browserstack?branch=master
+.. |codecov.io| image:: https://codecov.io/github/Stranger6667/pytest-browserstack/coverage.svg?branch=master
+    :target: https://codecov.io/github/Stranger6667/pytest-browserstack?branch=master
