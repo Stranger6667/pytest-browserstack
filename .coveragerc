@@ -9,6 +9,3 @@ omit = */tests/*
        setup.py
        */*.egg/*
        */*.egg-info/*
-
-[xml]
-output = reports/coverage.xml
