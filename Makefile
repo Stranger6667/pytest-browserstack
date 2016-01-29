@@ -25,12 +25,13 @@ clean-pyc:
 
 clean-test:
 	rm -fr .cache
+	rm -fr .tox
 	rm -f .coverage
 	rm -fr htmlcov/
 	rm -fr reports/
 
 test:
-	python setup.py test -a "--cov=pytest_browserstack tests"
+	python setup.py test -a "--cov=pytest_browserstack tests -p no:pytest_browserstack"
 
 coverage:
 	coverage run --source pytest_browserstack setup.py test
